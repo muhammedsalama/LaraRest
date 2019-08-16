@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 
 class ServerController extends Controller
 {
-    public function test(){
-        return 'hi';
+    public function ping(){
+        return $this->success(null,'success');
     }
 }
